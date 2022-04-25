@@ -1,0 +1,126 @@
+/* for screen < 740px  */
+@media screen and (max-width :46.1875em) {
+    /* common */
+    .m-full-width{
+        width:100%;
+    }
+
+    .m-margin-initial{
+        margin:0;
+    }
+
+    /* main */
+    #header{
+        display:block;
+        overflow:hidden;
+
+    }
+ 
+    .nav{
+        display:block;
+        margin:-19px 0px;
+    }
+
+    .nav>ul>li:first-child{
+        display:inline-block;
+        margin-top: 19px;
+    }
+
+    .nav>ul>li:last-child{
+        margin-bottom:15px;
+    }
+
+    #menu{
+        display:inline-block;
+    }
+
+    .nav>ul>li,.list-place{
+        display:block;
+    }
+    
+
+    .nav .subnav{
+        position:initial;
+        background:rgb(26, 19, 19)
+    }
+    .nav .subnav>li>a{
+        color:aliceblue;
+        padding: 5px 41px;
+    }
+    .member{
+        float:none;
+        width:100%;
+    }
+
+    .membera{
+        width:60%;
+    }
+    
+    .col{
+        float:initial;
+        padding:0;
+    }
+    .member p{
+        padding:25px 0 5px 0;
+    }
+    
+    .header-selection{
+        font-weight:500;
+        margin-top:28px;
+        letter-spacing: 1px;
+    }
+    
+    .subnav>li:hover>a{
+        color:#000;
+    }
+    
+    .fa-gear::before {
+        padding:0 24px;
+    }
+    .setting{
+        top:46px;
+    }
+    /* modal */
+    .ti-close{
+        padding:8px;
+    }
+    .modal-sticket{
+        height:35px;
+        padding:16px 8px;
+    }
+    label.model-lable{
+        margin:7.5px 5px;
+        font-size:13px;
+    }
+    .button-modal{
+        padding:6px 0;
+        margin:7px 5px 0;
+    }
+    input.modal-input{
+        margin:0 5px;
+        font-size:15px;
+        padding: 5.5px;
+    }
+    .need-help{
+        padding:5px;
+    }
+
+}
+
+@media screen and (max-width:63.9375em){
+    .s-full-width{
+        width:100%;
+    }
+
+    .s-padding-btn{
+        padding:13px 13px;
+    }
+
+    .s-footer a{
+        margin:0 5px;
+        padding:3px;
+    }
+    .s-padding-form{
+        padding:32px 0;
+    }
+}
